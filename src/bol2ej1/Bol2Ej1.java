@@ -7,13 +7,13 @@ public class Bol2Ej1 {
 
     public static void main(String[] args) {
         
-        int lado = 0;
-        int area = 0;
+        float lado = 0;
+        float area = 0;
         
         System.out.println("Introduzca la base: ");
         Scanner base = new Scanner (System.in);
         
-        lado = base.nextInt();
+        lado = base.nextFloat();
         
         area = lado * lado;
         
